@@ -75,8 +75,6 @@ public class ClienteDAO {
                 clientList.add(client);
             }
 
-            ps.close();
-
             return clientList;
 
         } catch (Exception e) {
