@@ -70,7 +70,7 @@ public class ClienteDAO {
                 client.setTelefone(rs.getString("telefone"));
                 client.setIdade(rs.getInt("idade"));
                 client.setLimiteCredito(rs.getDouble("limiteCredito"));
-                client.setPais();
+                client.setPais(p);
 
                 clientList.add(client);
             }
